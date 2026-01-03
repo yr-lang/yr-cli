@@ -1,0 +1,48 @@
+{
+  "_id": "yrci",
+  "name": "yrci",
+  "config": {
+    "db": {
+      "backupInterval": 12,
+      "log": true
+    },
+    "jwt": {
+      "secret": "",
+      "expiresIn": ""
+    },
+    "deploy": "",
+    "listen": {
+      "port": 20190,
+      "log": true
+    },
+    "buildWith": []
+  },
+  "setters": {
+    "su": {
+      "name": "",
+      "username": "",
+      "password": ""
+    },
+    "user": {
+      "defaultPassword": "",
+      "startActive": false,
+      "ignorePasswordOnRegister": false
+    },
+    "admin": {
+      "allowPasswordChange": false
+    },
+    "api": {
+      "address": "",
+      "port": 20193,
+      "dbname": "yrci",
+      "serveDist": false
+    },
+    "ssl": {
+      "cname": "",
+      "key": "",
+      "cert": "",
+      "ca": "",
+      "csr": ""
+    }
+  }
+}
