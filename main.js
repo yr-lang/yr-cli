@@ -43,14 +43,14 @@ yr // [OPTIONS]=[VALUE] // [FLAGS]
 
 Examples:
 
-$ clear; yr name=yrci config=~/.yr/yr-cli tree=~/.yr,~/.yrlibs views=yrci:index builds=~/.yrb --exec --console`;
+$ clear; yr name=yrci config=~/.yr-lang/yr-cli tree=~/.yr-lang,~/.yrlibs views=yrci:index builds=~/.yrb --exec --console`;
 
 if (process.argv.includes('--help') || process.argv.includes('-h')) {
   console.log(man);
   return;
 }
 
-const yr = require(`${process.env.HOME}/.yr/yr/node`);
+const yr = require(`${process.env.HOME}/.yr-lang/yr/node`);
 
 if (process.argv.length === 2) {
   function getCode(repeat=false) {

@@ -1,0 +1,16 @@
+{
+  "name": "@yr-lang/yr-cli",
+  "version": "0.1.0",
+  "description": "CLI for the Yr language",
+  "bin": {
+    "yr": "./main.js"
+  },
+  "dependencies": {
+    "@yr-lang/yr": "^0.1.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yr-lang/yr-cli"
+  }
+}
