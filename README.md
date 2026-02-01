@@ -47,8 +47,10 @@ When calling `$ yr` without arguments, it simply executes a prompt to write `yr`
 
 Execute `$ yr -h` for more information on how to run tests or parse a `yrlib`.
 
+## Documentation
+
+For more information on how to use the yr API or syntax description with examples, read the [docs](https://github.com/yr-lang/docs) files for concise explanation or [Yrci](https://github.com/yr-lang/yr/tree/main/lib/Yrci) for code snippets.
+
 ## License
 
 Read the LICENSE for information on how to use or distribute this software. This license should always be available.
-
-> For more information on how to use the API or syntax description with examples, read the docs/ files for concise explanation or lib/Yrci/ for code snippets
