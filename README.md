@@ -39,7 +39,11 @@ projectname/
 
 ## Installation
 
-The installation process is described in `install.sh` file
+```bash
+npm install -g @yr-lang/yr-cli
+```
+
+After installation, the `yr` command will be available globally.
 
 ## Usage
 
