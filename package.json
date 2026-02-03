@@ -6,7 +6,7 @@
     "yr": "main.js"
   },
   "dependencies": {
-    "@yr-lang/yr": "^0.1.0"
+    "@yr-lang/yr": "^0.1.1"
   },
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
