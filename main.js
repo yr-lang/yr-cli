@@ -50,7 +50,10 @@ if (process.argv.includes('--help') || process.argv.includes('-h')) {
   return;
 }
 
-const yr = require(`${process.env.HOME}/.yr-lang/yr/node`);
+const yrPath = (process.argv.includes('--dev') || process.argv.includes('-d'))
+  ? `${process.env.HOME}/.yr-lang/yr/node` : '@yr-lang/yr';
+
+const yr = require(yrPath);
 
 if (process.argv.length === 2) {
   function getCode(repeat=false) {
