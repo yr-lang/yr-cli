@@ -43,7 +43,10 @@ yr // [OPTIONS]=[VALUE] // [FLAGS]
 
 Examples:
 
-$ clear; yr name=yrci config=~/.yr-lang/yr-cli tree=~/.yr-lang,~/.yrlibs views=yrci:index builds=~/.yrb --exec --console`;
+$ clear; yr name=yrci config=~/.yr-lang/yr-cli tree=~/.yr-lang,~/.yrlibs views=yrci:index builds=~/.yrb --exec --console
+
+Feedback and discussions:
+https://github.com/yr-lang/yr/discussions`;
 
 if (process.argv.includes('--help') || process.argv.includes('-h')) {
   console.log(man);
@@ -123,7 +126,7 @@ if (process.argv.length === 2) {
     });
   }
 
-  console.log('Welcome to yr v0.0.2.');
+  console.log('Welcome to yr');
   console.log('Type "--help" for more information.');
   console.log('Type "<<<" to parse the code block.');
   console.log('\nPress "Ctrl + C" to exit.');
